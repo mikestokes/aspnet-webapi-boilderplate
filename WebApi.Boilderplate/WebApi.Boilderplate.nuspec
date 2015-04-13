@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WebApi.Boilderplate</id>
+    <version>$version$</version>
+    <description>WebApi.Boilderplate</description>
+    <authors>Mike Stokes</authors>
+  </metadata>
+  <files>
+    <file src="bin\**" target="bin\" />
+    <file src="Web.*config" exclude="Web.Debug.config" target="" />
+    <file src="packages.config" target="" />
+  </files>
+</package>
